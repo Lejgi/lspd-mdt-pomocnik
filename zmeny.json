@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.2.3",
+    "date": "2026-11-25",
+    "notes": [
+      "Vysílačka – kódy jsou teď kompaktně vedle sebe, vše vidíš bez zdlouhavého scrollování"
+    ]
+  },
+  {
     "version": "1.2.2",
     "date": "2026-11-25",
     "notes": [

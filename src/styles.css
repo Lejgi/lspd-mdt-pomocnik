@@ -549,18 +549,17 @@ ul.steps { padding: 0; margin: 0; }
 .log-day { font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--dim); font-weight: 700; padding: 14px 4px 4px; }
 
 /* ---------- Kódy ---------- */
-.hot { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-bottom: 18px; }
-.hot-item { padding: 14px; border-radius: 14px; background: linear-gradient(160deg, rgba(226, 59, 76, 0.16), rgba(226, 59, 76, 0.03)); border: 1px solid rgba(226, 59, 76, 0.28); cursor: pointer; transition: 0.12s; }
+.hot { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin-bottom: 12px; }
+.hot-item { padding: 9px 11px; border-radius: 11px; background: linear-gradient(160deg, rgba(226, 59, 76, 0.16), rgba(226, 59, 76, 0.03)); border: 1px solid rgba(226, 59, 76, 0.28); cursor: pointer; transition: 0.12s; }
 .hot-item:hover { border-color: rgba(255, 91, 107, 0.55); transform: translateY(-1px); }
-.hot-item .hc { font: 800 20px var(--font-head); color: #fff; }
-.hot-item .hd { font-size: 12.5px; color: #ffd0d5; margin-top: 2px; }
-.code-cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; align-items: start; }
-@media (max-width: 1250px) { .code-cols { grid-template-columns: 1fr 1fr; } }
-.code-item { display: flex; gap: 14px; align-items: baseline; padding: 11px 10px; border-bottom: 1px solid rgba(148, 163, 184, 0.09); cursor: pointer; transition: 0.1s; }
-.code-item:last-child { border-bottom: none; }
-.code-item:hover { background: rgba(148, 163, 184, 0.1); border-radius: 8px; }
-.code-item .cc { font-family: var(--font-mono); font-weight: 800; font-size: 16px; color: var(--blue2); min-width: 94px; letter-spacing: 0.4px; }
-.code-item .cd { font-size: 14.5px; color: var(--text); line-height: 1.45; }
+.hot-item .hc { font: 800 16px var(--font-head); color: #fff; }
+.hot-item .hd { font-size: 11.5px; color: #ffd0d5; margin-top: 1px; line-height: 1.25; }
+.code-cols { display: flex; flex-direction: column; gap: 14px; }
+.code-list { columns: 230px; column-gap: 20px; }
+.code-item { break-inside: avoid; display: flex; gap: 10px; align-items: baseline; padding: 5px 8px; border-radius: 7px; cursor: pointer; transition: 0.1s; }
+.code-item:hover { background: rgba(148, 163, 184, 0.12); }
+.code-item .cc { font-family: var(--font-mono); font-weight: 800; font-size: 14px; color: var(--blue2); min-width: 70px; letter-spacing: 0.3px; }
+.code-item .cd { font-size: 13px; color: var(--text2); line-height: 1.3; }
 .code-item.hl .cc { color: var(--red2); }
 mark { background: rgba(245, 165, 36, 0.3); color: inherit; border-radius: 3px; padding: 0 1px; }
 

@@ -1,7 +1,7 @@
 {
-  "version": "1.2.2",
+  "version": "1.2.3",
   "notes": [
-    "Přehlednější Vysílačka – 10-kódy a signály jsou teď větší a lépe čitelné"
+    "Vysílačka – kódy jsou teď kompaktně vedle sebe, vše vidíš bez zdlouhavého scrollování"
   ],
   "files": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "path": "main.js",
-      "sha256": "8dff8224933dadcd70596a4283fa26d3580adf6bba6d4d949a2634941b5a6e95",
-      "size": 20699
+      "sha256": "79c3ba3349d6a2e350ff6f72a59802941bebf97c6da45180cf7c7e6fa67619ca",
+      "size": 21994
     },
     {
       "path": "node_modules/@fontsource/inter/400.css",
@@ -681,13 +681,13 @@
     },
     {
       "path": "package.json",
-      "sha256": "16dc55d436d6be315cc7c9e15cf44cf793377e71f4d1504dfc9ccffcd89f43d7",
+      "sha256": "b3c284729af4ec80da22568483a5cec91facc7998be08622a34b7e756477102d",
       "size": 340
     },
     {
       "path": "preload.js",
-      "sha256": "683062c744cc1f88ba3dc89847a0ec64fa726919312bcac01a5d201d41df744b",
-      "size": 4623
+      "sha256": "4a7b0c56f08240578628c86f23dd135cfbc471c7fa726713265f872b96ee96c7",
+      "size": 4830
     },
     {
       "path": "src/calc.html",
@@ -721,43 +721,43 @@
     },
     {
       "path": "src/js/app.js",
-      "sha256": "b9ace173b9a6ba6676002120f0a4a0ad80b279fbab7ec0c61856bf1485b136cd",
-      "size": 23714
+      "sha256": "1f3a5bdacd1a3416130730362e4b975807b430b0418489baa7a46446ea18a4f7",
+      "size": 23485
     },
     {
       "path": "src/js/calc.js",
-      "sha256": "33de13a5ea3f017ea7b5d296717ca70559cfa96ccb4e25053bb77d21aa43cfc8",
-      "size": 12082
+      "sha256": "e81e922eb3e75c441abf18ef39e34144a8f2b3c6f1c07272793896f429e008f4",
+      "size": 12033
     },
     {
       "path": "src/js/core.js",
-      "sha256": "867325c43c15ed1be8e07d3d6638bd4869713c13d6b186d104f6fbdcc2bff07c",
-      "size": 45158
+      "sha256": "f121e4afe2ffe4ec463edb19f0da33b78865bbe905ded4564b54cfc03df23bf0",
+      "size": 43677
     },
     {
       "path": "src/js/pages.js",
-      "sha256": "1b3d6c2c79f701c4a57a885835d9d481a87a3b0856cb51e4671511577f8df08c",
-      "size": 133729
+      "sha256": "310cf051e13ee4e7ca43749759da99fc67fcc5d28b0531242be44ca145611c07",
+      "size": 134754
     },
     {
       "path": "src/js/report.js",
-      "sha256": "8df68c23e91b16c2e87a7b2019109b3359d3a03656be87892d93f274fe98b54d",
-      "size": 88009
+      "sha256": "b992d224bb9cc5a3837cec73000ae608c99a590a108e362427365f1ac5211613",
+      "size": 90188
     },
     {
       "path": "src/js/web-shim.js",
-      "sha256": "4050e99941282dad3a8363ddad722979397bb69a9a1be6baee33bcc608eb43d0",
-      "size": 4990
+      "sha256": "d4007b20d8de97a05dc410511bd9c45cc3f207674bb881479b438263a010b1ec",
+      "size": 4960
     },
     {
       "path": "src/styles.css",
-      "sha256": "a239138ad64fcd50503ecd3cd3784747daa95c65600e14ec6b0b203b1dc32810",
-      "size": 51540
+      "sha256": "785bb2e792740dbcfba73dd3687bee4f56bd17cd6dcb42914c0f666cfab64909",
+      "size": 51416
     },
     {
       "path": "zmeny.json",
-      "sha256": "6f87e8cc61844af6609917ba4ed2670bc86b0a85382c10d5008518800174c540",
-      "size": 1122
+      "sha256": "b9e9a115128288eb843e9232e017b05caaa7377056dde2d23de78f9f208679a0",
+      "size": 1316
     }
   ]
 }

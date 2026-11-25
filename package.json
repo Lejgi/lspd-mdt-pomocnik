@@ -1,7 +1,7 @@
 {
   "name": "lspd-mdt-pomocnik",
   "productName": "LSPD MDT Pomocník",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Pomocník pro MDT – LSPD (FiveM RP)",
   "main": "main.js",
   "private": true,
