@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.2.2",
+    "date": "2026-11-25",
+    "notes": [
+      "Přehlednější Vysílačka – 10-kódy a signály jsou teď větší a lépe čitelné"
+    ]
+  },
+  {
     "version": "1.2.1",
     "date": "2026-11-25",
     "notes": [

@@ -4,7 +4,7 @@ Pomocník pro MDT – LSPD (FiveM RP).
 
 Z této složky si aplikace stahuje **automatické aktualizace**. Celý program pro první instalaci je ZIP, který rozesílá správce.
 
-Aktuální verze: **1.2.1**
+Aktuální verze: **1.2.2**
 
 ## Co je nového
-- Novinky a historie verzí přímo v aplikaci (Nastavení → Novinky)
+- Přehlednější Vysílačka – 10-kódy a signály jsou teď větší a lépe čitelné
