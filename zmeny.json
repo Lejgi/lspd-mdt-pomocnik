@@ -1,0 +1,34 @@
+[
+  {
+    "version": "1.2.1",
+    "date": "2026-11-25",
+    "notes": [
+      "Novinky a historie verzí přímo v aplikaci (Nastavení → Novinky)"
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "date": "2026-11-25",
+    "notes": [
+      "Ochrana kódu – soubory aplikace jsou nově zamaskované a nečitelné",
+      "Drobná vylepšení stability"
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "date": "2026-11-25",
+    "notes": [
+      "Nová ikona aplikace",
+      "Plovoucí kalkulačka trestu – Ctrl + Shift + M ji ukáže i nad hrou",
+      "Z kalkulačky jde přestupky jedním klikem poslat do hlášení",
+      "Automatické aktualizace – nové verze se nabídnou samy, data zůstanou"
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "date": "2026-11-24",
+    "notes": [
+      "První verze pro kolegy – hlášení, zákoník, zatykač, pátrání, osoby, poznámky, kódy, návody"
+    ]
+  }
+]
