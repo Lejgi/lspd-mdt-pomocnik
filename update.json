@@ -1,0 +1,761 @@
+{
+  "version": "1.1.0",
+  "notes": [
+    "Nová ikona aplikace",
+    "Plovoucí kalkulačka trestu – Ctrl + Shift + M ji ukáže i nad hrou (hra v režimu okno bez okrajů)",
+    "Z kalkulačky jde přestupky jedním klikem poslat do hlášení",
+    "Automatické aktualizace – nové verze se nabídnou samy, data zůstanou"
+  ],
+  "files": [
+    {
+      "path": "assets/icon.ico",
+      "sha256": "82124c1e521f3b82a23b3922903fafdfb9d1f61279588d20a891c858b58139f5",
+      "size": 73542
+    },
+    {
+      "path": "assets/icon.png",
+      "sha256": "b2498882e27962f57f0c1433c52125271b625130f585e04fe0542b774f9b54e6",
+      "size": 96659
+    },
+    {
+      "path": "main.js",
+      "sha256": "b077fabf041e1a479d5232978b7e8e2d4fa50778b01bbde88ed794a4d05f1d22",
+      "size": 8895
+    },
+    {
+      "path": "node_modules/@fontsource/inter/400.css",
+      "sha256": "a3c5db28cea5bcb68859bac8b109ee3cf1248378ce816a6be88624375e6cdd8e",
+      "size": 2654
+    },
+    {
+      "path": "node_modules/@fontsource/inter/500.css",
+      "sha256": "16f8304fe0847db4603dd9cb30d8f29ed38d38b325211bf5d9d5a674e563ee15",
+      "size": 2654
+    },
+    {
+      "path": "node_modules/@fontsource/inter/600.css",
+      "sha256": "28c3e6cf056708cf439c53d3ed761614c20a9100dc339c6b65afade6ae6b383f",
+      "size": 2654
+    },
+    {
+      "path": "node_modules/@fontsource/inter/700.css",
+      "sha256": "04467075eced641537eaf1c7cd1d85223bf4e18dbfc0a3ba4a478239dbba7d04",
+      "size": 2654
+    },
+    {
+      "path": "node_modules/@fontsource/inter/800.css",
+      "sha256": "68ad4a5c1f9aa97a608d895ecda7fee3d909d8600f41c8dc1f46c5f2997b9dd0",
+      "size": 2654
+    },
+    {
+      "path": "node_modules/@fontsource/inter/LICENSE",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "size": 4477
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff",
+      "sha256": "6e441a6c94788318fa02b6d0a633aa29eebe27b69c6567eb1e59b4edc68ed70e",
+      "size": 9780
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff2",
+      "sha256": "f0bb586459ce8f09b238285040f17e3e9e9538b2c5a7aae0775194e33c36c3c3",
+      "size": 7712
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-500-normal.woff",
+      "sha256": "5be18e0345781cb882a267798518553c0e915174fc70731ab5f085ca64ba1ebc",
+      "size": 9940
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-500-normal.woff2",
+      "sha256": "b77a86ec16aadc157f4a99e8898d71cd75ea264753d9bdf13f962f8c3988cbb0",
+      "size": 7900
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-600-normal.woff",
+      "sha256": "cc190ed1b64eb650a4ad7e97c7a668cb8b34acd9c4c7f7bf4372c0cbacd35795",
+      "size": 9936
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-600-normal.woff2",
+      "sha256": "6c2a37f82a676bcd441b735e4e2cda4edb8873a059ab9c362a84f0711f257041",
+      "size": 7972
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-700-normal.woff",
+      "sha256": "72b6daa49173e531027d8a260ef128e142a165811cab6a2875eefe0c3c58fa0e",
+      "size": 9912
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-700-normal.woff2",
+      "sha256": "5917871d3cc970d8ce195101cbf65c1f68ec948022eb6070030342bb7edfb3bb",
+      "size": 7904
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-800-normal.woff",
+      "sha256": "5d3dc126873486c5a8449a14823c613de707c7ee8b1df23a9e34e76116167627",
+      "size": 9944
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-800-normal.woff2",
+      "sha256": "e84cb164b47aaad63db12da876c341c59f78b6b25f9069dcdea3c1f8ca8b8f9b",
+      "size": 7992
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff",
+      "sha256": "5cb2f1cc0936f89a42ceae34f5a5720248dc5b8114c12b1c33a7d2ef01a9b6b9",
+      "size": 13336
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff2",
+      "sha256": "ef572f9187a8be018d9d9c2c6b77c1f6cb2af4199f02fc16c292ea10ab25a2cc",
+      "size": 10232
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-500-normal.woff",
+      "sha256": "e250c05aebcf49971e0b25f476992dd463c28c0292ebb204d9db542fb5066ca7",
+      "size": 13452
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-500-normal.woff2",
+      "sha256": "1c2db92d3cd9b237ca7c9c07af556d542f28ded1db54cd4382cf776501c5291f",
+      "size": 10432
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-600-normal.woff",
+      "sha256": "a5073285409443f4653c858de58c5dc0bfc2fd33e60d8747388345e7c5ab1ab3",
+      "size": 13464
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-600-normal.woff2",
+      "sha256": "509fca9c59564f9a846fa69bc647f9b050fc11abf1c9f6f3da71fb2d5ed425bd",
+      "size": 10484
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-700-normal.woff",
+      "sha256": "0f3d4be2bd7018f78fa3484a5f6e9d8ce567689426643b84a47e8cabb91e5f16",
+      "size": 13408
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-700-normal.woff2",
+      "sha256": "a46b99781170971e2c99a87ff7ee9f5cf90a9dfcd18175e1be6300201d030123",
+      "size": 10496
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-800-normal.woff",
+      "sha256": "e87b63bf58fb0490d6a456d44cfdf58d496364f1fe8213a06787ef3cdad25fe8",
+      "size": 13476
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-800-normal.woff2",
+      "sha256": "5c3f504d068a53469514175401cb3fe4d210231f44df0ef15d3da5f32d9ff445",
+      "size": 10440
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff",
+      "sha256": "bdae9d28729e8c68587d5d54e216d771a40d7a6800e824586a6e2f570c2f10df",
+      "size": 9924
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff2",
+      "sha256": "c15ddd00a9927b56f5c655a41f976f79bd848a20cce91fc14227751872a1cc27",
+      "size": 7776
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-500-normal.woff",
+      "sha256": "86d55a4b1b9cbced7e61e76d5d44cf49d0bd1c814d3df2de67b7136ab4fdcece",
+      "size": 9980
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-500-normal.woff2",
+      "sha256": "cc197d79d33a3615a047baae85f4d1957f6f98b8898313658e160b1d519b1b6f",
+      "size": 7920
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-600-normal.woff",
+      "sha256": "090b24e22fc4ddf41450d13bdec81c8a74808b9fc7edaf8df06c909b177a8992",
+      "size": 10032
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-600-normal.woff2",
+      "sha256": "9c5a897f9d9fcfe60d90631d766ae62b4bf1edd76633fa7a4b2f8c87e036789b",
+      "size": 7944
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-700-normal.woff",
+      "sha256": "53368f53d5fc43381dcc45c8533ba2476f80337136313525f96dcbdc736616a5",
+      "size": 9980
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-700-normal.woff2",
+      "sha256": "737c6c91cd60372d30e6540096ada83c89c9b4613cd7472e3366bf2e07ad99f1",
+      "size": 7920
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-800-normal.woff",
+      "sha256": "67c23188c195ef3f04f4d0552a898f268a63d377924db280693f267679fc9dab",
+      "size": 9964
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-800-normal.woff2",
+      "sha256": "18a6a4a8e29310db74c01b9d85b30e708e0b1fd8d9a2d01a259b82fe4d112422",
+      "size": 7892
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff",
+      "sha256": "4f2b6f92ddfece8812e79774d446218aa6e0773ff8c2d31130fe2bdc23bd22d0",
+      "size": 7064
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff2",
+      "sha256": "eadedd9e13c2582430a9fb1519eb86152fdabb483a6f66d90f8d8a52e977a1b7",
+      "size": 5264
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-ext-500-normal.woff",
+      "sha256": "c85d11bde719108cc9a4f6f5b008087f6c36493b47395580d4f5336182b0f0c7",
+      "size": 7192
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-ext-500-normal.woff2",
+      "sha256": "75a9ec9383a3b7a7bf7cfb94f64edf38d9cfdc5f7ffa0cbed2733627a6e4426d",
+      "size": 5428
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-ext-600-normal.woff",
+      "sha256": "efc7aa9cce5c505dd8cc4c4daf00247fa805f37bcda96079239ba3358ab27dfb",
+      "size": 7212
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-ext-600-normal.woff2",
+      "sha256": "399f94d75aa73403e40e2353e8c0cc75c38f7362a6ca263b3b02d9723157ffe5",
+      "size": 5432
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-ext-700-normal.woff",
+      "sha256": "b26ed64c9135a750ad580b92152bedeef90771e74e18f6f7759a6d7adb0f1b5d",
+      "size": 7216
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-ext-700-normal.woff2",
+      "sha256": "b7b2732ebc981b30a5463ffc850407649dba41e625aee124cc63293da4547629",
+      "size": 5444
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-ext-800-normal.woff",
+      "sha256": "75c98d8d562061bb76f3936cf1b48246d217209497264113742e8dbbc9198af1",
+      "size": 7204
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-greek-ext-800-normal.woff2",
+      "sha256": "33bc91a610e159df66b874231f4c8f0037ac947fdd1b270cc60a7ee658a2c21f",
+      "size": 5548
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff",
+      "sha256": "e20fa0b4fd2dd26e4d14b3ac3cc922509c3a63fa5e910e90c614544aa042dd45",
+      "size": 30696
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "size": 23664
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-500-normal.woff",
+      "sha256": "9b42c108da48b5ed55a3072e815ffee2d271562e6c0dd6998910e8f9c09e0a3d",
+      "size": 31284
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2",
+      "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f",
+      "size": 24272
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-600-normal.woff",
+      "sha256": "6a9cb3a509b4eeaf12b7dda6c4aacac3e85d07f4201bf4dd716e332e692b87bd",
+      "size": 31260
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2",
+      "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a",
+      "size": 24452
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-700-normal.woff",
+      "sha256": "7c5ed5655730de337704d3fc94628515cd7e3d8d32368871709bf56ac0397e7a",
+      "size": 31320
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2",
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "size": 24356
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-800-normal.woff",
+      "sha256": "a2fdc5be8acd75fe8f3fd9de8179828d04fd884c155cd6b63fec23b33651ec88",
+      "size": 31296
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2",
+      "sha256": "a7d0a50f15d389cad679238466bdb5fc9787aa0715719064ce25abaff042820d",
+      "size": 24400
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff",
+      "sha256": "22ae8360fbad24d2af7c6c9898a346c881774dc87f7cf94bd262c48ad58d7116",
+      "size": 47560
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff2",
+      "sha256": "6744a7f509ebc6ab220a6cd4ea77e898adf014f03d88dcda5d45d8a9feefb4e9",
+      "size": 35000
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-ext-500-normal.woff",
+      "sha256": "30d2903ce97f8a89ea0e9c083b42cb8bf97e7bbb5607e7f00352815f19cb0d5b",
+      "size": 48492
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-ext-500-normal.woff2",
+      "sha256": "2c6fbc42d315528beb06c1096df45487bf4186c4b78b8111d12c9c951f8acca2",
+      "size": 36024
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-ext-600-normal.woff",
+      "sha256": "22ff20a6170674fb9637c2a072227be86303bb6ec52b829b9d7077405f7196a6",
+      "size": 48668
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-ext-600-normal.woff2",
+      "sha256": "e4bdf67b0cd15ca9e184509275be95db942195d3cc2b17f6a0452f2adf75d0bf",
+      "size": 36260
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-ext-700-normal.woff",
+      "sha256": "1761edba32014180deab3dbbe3f7156c64ef6f34bc76313ba31ce227fc9ff391",
+      "size": 48632
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-ext-700-normal.woff2",
+      "sha256": "143f9504f1377012aa3e39c90c4354ef429cb0494b9ac0e1437f1a81e5412236",
+      "size": 36244
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-ext-800-normal.woff",
+      "sha256": "40c8e1bb3d3723f1c2fdb3be722cc42c03afaa4317935cdab9cf520cdf5a6ce8",
+      "size": 48592
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-latin-ext-800-normal.woff2",
+      "sha256": "eade55593308b9e4916dd7f47826929ce3e40cad85a2b338d56e5fd1e7bf8e5e",
+      "size": 36128
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-vietnamese-400-normal.woff",
+      "sha256": "54aa42d325bcdfd623ecb9eac4a5e3c6420c63d7b86e9d8545fb479f653beb57",
+      "size": 6500
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-vietnamese-400-normal.woff2",
+      "sha256": "547ad9fdaeb0ae43487f4b8a02e47c36553c0c0cb73c8aa98f93b7b615f6b55d",
+      "size": 4972
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-vietnamese-500-normal.woff",
+      "sha256": "18a4a09f751671cd8929d7c66e8fe7d820b511c36e51cf6047ffceab88eec4a4",
+      "size": 6596
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-vietnamese-500-normal.woff2",
+      "sha256": "44e36aa5a8f12130029a29bb0e6695d0262b67446ce321e878b1fb56162b5de6",
+      "size": 5112
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-vietnamese-600-normal.woff",
+      "sha256": "24a01e7bd947aeef91ae8f7b8edeb23fadaf5ceda34a610ce62d2bbdaea57e83",
+      "size": 6640
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-vietnamese-600-normal.woff2",
+      "sha256": "1aeb94ae9db052a4a2fe6f3046f928cff1fdbd7abdf870a9a01c13cae6faeba5",
+      "size": 5100
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-vietnamese-700-normal.woff",
+      "sha256": "412023ab2f41333b373e2c6eb2a3ebab806fddd610015d2ae8cd4f4314c7ba92",
+      "size": 6632
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-vietnamese-700-normal.woff2",
+      "sha256": "5fafa3829a16d9ea5ac3a67c51e54186353122790b604a3e361f96cab188da8b",
+      "size": 5104
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-vietnamese-800-normal.woff",
+      "sha256": "46ce148ad9022e973f68e3e69442d950a30c58285c57d81caa813424a4e9a38d",
+      "size": 6644
+    },
+    {
+      "path": "node_modules/@fontsource/inter/files/inter-vietnamese-800-normal.woff2",
+      "sha256": "37852ffd38e1064bd06a0b95aed12cbb4f248c6f0b5ffcf9c1a4ffc40500b22c",
+      "size": 5176
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/400.css",
+      "sha256": "62385ef307b5cf9cafda6312f837f84f391f1d86fc5fb04ea908100f030e7f68",
+      "size": 2115
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/500.css",
+      "sha256": "36ec21df7a6f2c0c0b618f1cb95d3cbbfacf705c522bddf9292a43c67c5af02c",
+      "size": 2115
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/600.css",
+      "sha256": "0b99856dfde1b2f5933b7ee7a43dfaf86f095e78f9ecfc2735a257578292d086",
+      "size": 2115
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/700.css",
+      "sha256": "49edbaba0566917f7b7dd6f28925fe4b1b99d82633b48ebb0966ff273bd2393e",
+      "size": 2115
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/800.css",
+      "sha256": "84ab1c8fbf645b0cf30da90962da5be5b07e0bd990c8218df2cfc77e875f70a9",
+      "size": 2115
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/LICENSE",
+      "sha256": "f429f739351287574c0c3175a9222bb3e49c7cad3f568a04f2c08d74c107724e",
+      "size": 4509
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-400-normal.woff",
+      "sha256": "2f2fee9643e77199f1bcffa2421f8cc4d695649b9fe0a5477df7e1fb891c71f0",
+      "size": 10912
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-400-normal.woff2",
+      "sha256": "b2e276e2401a1539faea5639b69df0bfed888c2b26178d990c7af37a420a678b",
+      "size": 10980
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-500-normal.woff",
+      "sha256": "51d78e853f7eb8f7f0399149a2d39b8bacb42b57f89e6b086a0daf940f95a606",
+      "size": 10992
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-500-normal.woff2",
+      "sha256": "7d2f0315ec3282dd809e7d3cefccaf501113a2076a18fa0293cf70b931a463ad",
+      "size": 11128
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-600-normal.woff",
+      "sha256": "e43f70482ed5f31349432c33e73a9fbf3f73491b98b2c881fa0351dbe71b4217",
+      "size": 10976
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-600-normal.woff2",
+      "sha256": "12fe2b174f70b732553c46dae097be6a70b3f4a3d3cf305dbbbf236ac3b182b7",
+      "size": 11120
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-700-normal.woff",
+      "sha256": "045bd7c4e47fa6e32d2c2eb2b739050f0e30eec8da01b3dac4eed3467a299f29",
+      "size": 10928
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-700-normal.woff2",
+      "sha256": "c6880741986ff5648d6b6c08ebbacfe7ba77861a002bff2643b8af4221f40d34",
+      "size": 11160
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-800-normal.woff",
+      "sha256": "5e25e27cb096fc27d247878d088c43ce2dc2839f5fe8bdf80114c7af0fa1a030",
+      "size": 10924
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-800-normal.woff2",
+      "sha256": "e9796e8de1954ee72e8d5de23d26bb8f577d4b903abae1fe11db8904279516ef",
+      "size": 11180
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-ext-400-normal.woff",
+      "sha256": "da6692e47c27041ce8a398d0e8247cb639186ceae7a4245132daaef9253f8d72",
+      "size": 12088
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-ext-400-normal.woff2",
+      "sha256": "d2b0f62ec1a296267618c01aae126ee87540b548f647776cd12dd9ef2a533265",
+      "size": 11940
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-ext-500-normal.woff",
+      "sha256": "10f3126de3be09e3f0dafeb89c08d5aa0d786947c7d7e188e4734a556e661b60",
+      "size": 12056
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-ext-500-normal.woff2",
+      "sha256": "630211df38da5158405937d8f947e8f22b4c676185a673631667da59115c4692",
+      "size": 11956
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-ext-600-normal.woff",
+      "sha256": "9e00d8fdf9541ec2e41da6444499631de33fa2f976136adea0af76c85dc01792",
+      "size": 12084
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-ext-600-normal.woff2",
+      "sha256": "5cdc3c54c076ef8ce55a8e21e306c9a57720c48b5f77853e28a6abd62aa23c15",
+      "size": 12060
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-ext-700-normal.woff",
+      "sha256": "f5b4da408ba6252566942f8910a76278dd3839e9ac5dd5bdc9f67a4553176f57",
+      "size": 12076
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-ext-700-normal.woff2",
+      "sha256": "b930b83240c1c3e2aa3c81e24b828c8e68bba79f7d23483f6346cdb5fce5173f",
+      "size": 12060
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-ext-800-normal.woff",
+      "sha256": "9693830cf4c1b4304095ae7f80dfcc3bc4401514f56d4250d57b0118d3772c70",
+      "size": 12036
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-cyrillic-ext-800-normal.woff2",
+      "sha256": "f61413d2fbb61e639bdb53e4e47b7b6f275953b408b18eeb0b200fb66d55c4cf",
+      "size": 12144
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-400-normal.woff",
+      "sha256": "6a7d6a30d2b8cdc9dd4092918ad2d9a45006f19987300b6a1c1f7a2bde5b0ea3",
+      "size": 20648
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-400-normal.woff2",
+      "sha256": "e66bcd2761ab6924b25ce70dafe10e57a39193c4fea1516730bd9cb5240af6c8",
+      "size": 18780
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-500-normal.woff",
+      "sha256": "7ad98b2ca2dc427864d01fb65105285a5f8228032e936d6f3316e6563a904237",
+      "size": 20608
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-500-normal.woff2",
+      "sha256": "2b53300fb9471520df2f4905847fb7a209879b2029ae893c05c6ee346b1320cd",
+      "size": 18748
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-600-normal.woff",
+      "sha256": "97ec588256114183969b5f3d3a53ce26d9beb1f04c8373c866f318afc85638c0",
+      "size": 20548
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-600-normal.woff2",
+      "sha256": "d857325c360f7128b347ca924c1974967aaa886ba47dad22e4042d6c38b26a83",
+      "size": 18688
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-700-normal.woff",
+      "sha256": "ff51c769e51acaa5ffbb8091441ff4e365e41ff21f7e4c05d1cd5650514d6fd3",
+      "size": 20672
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-700-normal.woff2",
+      "sha256": "f9d9e65b15372cebcafc3acd1e664a564c5c4b23278de4d5760de9a13c530371",
+      "size": 18824
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff",
+      "sha256": "26f9e611260b72c43467d0a0ab4f56c5068ec431e41d9e3088fa74117ca086d8",
+      "size": 20660
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2",
+      "sha256": "ba826fb84c2e961578adf3a08b5778b87905d4443445d1d56d84f9f157d5ea4b",
+      "size": 19012
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-ext-400-normal.woff",
+      "sha256": "6459fd9979e99ccdafaef9fbde04b183c825ae089a5771ca78907bb32561085f",
+      "size": 40368
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-ext-400-normal.woff2",
+      "sha256": "30f166cea0894715f7b1342798306dd4206bc1d0331440d543f6e7f7fff04539",
+      "size": 32272
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-ext-500-normal.woff",
+      "sha256": "05b0efc4b2144eaf91416979d6a57686392aec08189ba3a543e6270d401ebd58",
+      "size": 40392
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-ext-500-normal.woff2",
+      "sha256": "e28f60d292d6574d2cb5c0b63fd3e893ae6d9a17d698afc9d037643dcfde4228",
+      "size": 32292
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-ext-600-normal.woff",
+      "sha256": "519a67a81579600b703ed5fc636a2c48b21085d948c3c7c667136b91c831b7f5",
+      "size": 41036
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-ext-600-normal.woff2",
+      "sha256": "1d8a4af6a50cc4f7561e8484d5bff39acda90016b8e8cbb5cee69c253bb02750",
+      "size": 33192
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-ext-700-normal.woff",
+      "sha256": "9829177ccd843b997deb7f5e5458a435bdb5fa79f0ae327976c119bacde570fd",
+      "size": 41344
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-ext-700-normal.woff2",
+      "sha256": "a59fcc944a712e213a2f3bd994367129217c75f24a9155a5a3c1a0f5fd2cc9a7",
+      "size": 33532
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-ext-800-normal.woff",
+      "sha256": "d54740b154f92d9fff855599f16bb2435ea68803b9795388574432d45092d7b7",
+      "size": 41688
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-latin-ext-800-normal.woff2",
+      "sha256": "59f6ebeb71a14c64edc538eba78a010c1c9ef680a66a559ec3cf4b0d12db1a8b",
+      "size": 33624
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-vietnamese-400-normal.woff",
+      "sha256": "f329a8136004575967c3a9893775a0b81b2055ce39c6358780b3ed0ec3e11621",
+      "size": 7268
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-vietnamese-400-normal.woff2",
+      "sha256": "575aa330708efd0385558f2649d4deedcfdab42059eeffbd5e53dcacddf614b0",
+      "size": 7896
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-vietnamese-500-normal.woff",
+      "sha256": "c791fc57927389055c0cb735ea4c8d7f89d39a84e5b2266b8be049d274ce61a2",
+      "size": 7248
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-vietnamese-500-normal.woff2",
+      "sha256": "47a7333ad07599329dabfdfe109196e3b3ccd778fb223ec7b9e9facff4855da7",
+      "size": 7872
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-vietnamese-600-normal.woff",
+      "sha256": "b2038f48f2a9968cca1728140bd16fbed6170973909ba91d391e6c3e5e1449a4",
+      "size": 7304
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-vietnamese-600-normal.woff2",
+      "sha256": "c4875c3754e594f283a2dbec1086da519d784f559cb7062b6d4d9721b667acd8",
+      "size": 7904
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-vietnamese-700-normal.woff",
+      "sha256": "9b38aecdaa108e02cd2b16e8b4831c9b1e298cb560e69cad38c0f6c37b28223e",
+      "size": 7304
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-vietnamese-700-normal.woff2",
+      "sha256": "da6ed50e8a351c07e86d912207c8dd7a336c644ff6dbf2a40555a08f2406519e",
+      "size": 7904
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-vietnamese-800-normal.woff",
+      "sha256": "20ece9e9814aa6304cd7cab78f244962b80f2693460e711e8706b7bf295e43ab",
+      "size": 7328
+    },
+    {
+      "path": "node_modules/@fontsource/montserrat/files/montserrat-vietnamese-800-normal.woff2",
+      "sha256": "24f149c36fd7d848a1f7beb294f829a8764927181d3002f7b02021295e75f8fd",
+      "size": 7900
+    },
+    {
+      "path": "package.json",
+      "sha256": "a967ee6c18b40ccde863fda22964fcd15792bf156958ab90a06c386a4176013b",
+      "size": 274
+    },
+    {
+      "path": "preload.js",
+      "sha256": "46b72a1119b334436b0d4111de75f8081fe9c73bb7219fb1c8232f883c2a04e7",
+      "size": 1411
+    },
+    {
+      "path": "src/calc.html",
+      "sha256": "48d8c62f52fbadce6d1c92a104aa7686277dda5b928840294ce2d2fa866e1289",
+      "size": 2067
+    },
+    {
+      "path": "src/data/codes.js",
+      "sha256": "9b03ba4ed8f9db92da930d1d3db7bb8e903888d233decc8c783d6d3267bcb5a8",
+      "size": 3174
+    },
+    {
+      "path": "src/data/guides.js",
+      "sha256": "67896d6ca54e178f2b7eba642a31013e0151bf7e89d5f0968f12355836925b4c",
+      "size": 7118
+    },
+    {
+      "path": "src/data/offenses.js",
+      "sha256": "33475ef087310a050c6ecfcee770ccec677d6188e02dd035e00cc1bbd79ddac4",
+      "size": 15642
+    },
+    {
+      "path": "src/data/officers.js",
+      "sha256": "f833a55521db75f912509e88e7fada21cf33cb0e603651a0833076d2879cdcce",
+      "size": 1828
+    },
+    {
+      "path": "src/index.html",
+      "sha256": "a100f2565d9692a95b246f36d63715eb625104a00522c6989c1e466cbb024591",
+      "size": 2501
+    },
+    {
+      "path": "src/js/app.js",
+      "sha256": "19b226c9ad608a769c194a2bdbf91aca20e49c2db330776344443c3dd4e32979",
+      "size": 8340
+    },
+    {
+      "path": "src/js/calc.js",
+      "sha256": "aa186a0f4b627cafcec8797e4fd15fc62e6c9220214c8071ef2ce8abe554a2ab",
+      "size": 3956
+    },
+    {
+      "path": "src/js/core.js",
+      "sha256": "40605247d0a5184114898ecd9655f8d61e01e2d6e752eed118a7efec46419102",
+      "size": 18500
+    },
+    {
+      "path": "src/js/pages.js",
+      "sha256": "2f347e94be3daa3051cad8dac047691bcf7ced961568d859166620f848b3a12c",
+      "size": 49427
+    },
+    {
+      "path": "src/js/report.js",
+      "sha256": "5bce232bcf36d448f15fac3d2adff231267579d758dd7bf739fdbc7ed29bceb5",
+      "size": 35599
+    },
+    {
+      "path": "src/js/web-shim.js",
+      "sha256": "c7cf6a429e5967a06f02cce08da3e8641fa4af3882a86c2d28305776b70f2c35",
+      "size": 1558
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "159afece0f7b5e5e107705c757566e74a73322e2e158ebf2c246abb7f6364396",
+      "size": 50033
+    }
+  ]
+}

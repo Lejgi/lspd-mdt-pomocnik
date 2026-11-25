@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; script-src 'self'; connect-src 'self'" />
+  <title>Kalkulačka trestu</title>
+  <link rel="stylesheet" href="../node_modules/@fontsource/montserrat/700.css" />
+  <link rel="stylesheet" href="../node_modules/@fontsource/montserrat/800.css" />
+  <link rel="stylesheet" href="../node_modules/@fontsource/inter/400.css" />
+  <link rel="stylesheet" href="../node_modules/@fontsource/inter/500.css" />
+  <link rel="stylesheet" href="../node_modules/@fontsource/inter/600.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="calc-body">
+  <div class="bg-fx" aria-hidden="true"></div>
+
+  <header class="calc-bar">
+    <img class="app-logo" src="../assets/icon.png" alt="" />
+    <div class="calc-name">
+      <span class="calc-t1">Kalkulačka trestu</span>
+      <span class="calc-t2"><span class="kbd">Ctrl</span> + <span class="kbd">Shift</span> + <span class="kbd">M</span> ukáže / schová</span>
+    </div>
+    <button class="tb-btn tb-close" id="cHide" title="Schovat (Esc)" data-icon="x"></button>
+  </header>
+
+  <main class="calc-main">
+    <div class="calc-search" id="cPick"></div>
+    <div class="calc-list" id="cList"></div>
+  </main>
+
+  <footer class="calc-foot">
+    <div class="calc-totals" id="cTotals"></div>
+    <div class="calc-actions">
+      <button class="btn sm" id="cClear" title="Vymazat vše" data-icon="trash"></button>
+      <button class="btn sm grow" id="cCopy"></button>
+      <button class="btn sm red grow" id="cReport"></button>
+    </div>
+  </footer>
+
+  <div class="toasts" id="toasts"></div>
+  <div class="modal-root" id="modalRoot"></div>
+
+  <script src="data/offenses.js"></script>
+  <script src="js/web-shim.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/calc.js"></script>
+</body>
+</html>
