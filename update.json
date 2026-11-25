@@ -1,10 +1,8 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "notes": [
-    "Nová ikona aplikace",
-    "Plovoucí kalkulačka trestu – Ctrl + Shift + M ji ukáže i nad hrou (hra v režimu okno bez okrajů)",
-    "Z kalkulačky jde přestupky jedním klikem poslat do hlášení",
-    "Automatické aktualizace – nové verze se nabídnou samy, data zůstanou"
+    "Ochrana kódu – soubory aplikace jsou nově zamaskované a nečitelné",
+    "Drobná vylepšení stability"
   ],
   "files": [
     {
@@ -19,8 +17,8 @@
     },
     {
       "path": "main.js",
-      "sha256": "b077fabf041e1a479d5232978b7e8e2d4fa50778b01bbde88ed794a4d05f1d22",
-      "size": 8895
+      "sha256": "434c51b56d8464c5cb956da7e8dc8070aac7550746f2088b7b7333c3a12750be",
+      "size": 20377
     },
     {
       "path": "node_modules/@fontsource/inter/400.css",
@@ -684,13 +682,13 @@
     },
     {
       "path": "package.json",
-      "sha256": "a967ee6c18b40ccde863fda22964fcd15792bf156958ab90a06c386a4176013b",
-      "size": 274
+      "sha256": "d0cbb3803569988c64cecc78a2fe423839fa5f9995873673202f680e09af3bfe",
+      "size": 340
     },
     {
       "path": "preload.js",
-      "sha256": "46b72a1119b334436b0d4111de75f8081fe9c73bb7219fb1c8232f883c2a04e7",
-      "size": 1411
+      "sha256": "16ca53ecd475eb897d0345310512b811225b10b59b4778bf0c7ad9b0f4f71ebd",
+      "size": 4418
     },
     {
       "path": "src/calc.html",
@@ -724,33 +722,33 @@
     },
     {
       "path": "src/js/app.js",
-      "sha256": "19b226c9ad608a769c194a2bdbf91aca20e49c2db330776344443c3dd4e32979",
-      "size": 8340
+      "sha256": "034f8cad37bd7a1af2f9f4afe233f385edccc3a694192e205c8998aa1a3c5cdd",
+      "size": 23465
     },
     {
       "path": "src/js/calc.js",
-      "sha256": "aa186a0f4b627cafcec8797e4fd15fc62e6c9220214c8071ef2ce8abe554a2ab",
-      "size": 3956
+      "sha256": "da1fd645d7b7d9ceb22e148283e920cb278ac25efcfa75649071f36e58b15f36",
+      "size": 12080
     },
     {
       "path": "src/js/core.js",
-      "sha256": "40605247d0a5184114898ecd9655f8d61e01e2d6e752eed118a7efec46419102",
-      "size": 18500
+      "sha256": "c0a5451f03cd53f6e12d310f334b37cbb36621b6c1c82f6bfd6c24e45f3f2ead",
+      "size": 45484
     },
     {
       "path": "src/js/pages.js",
-      "sha256": "2f347e94be3daa3051cad8dac047691bcf7ced961568d859166620f848b3a12c",
-      "size": 49427
+      "sha256": "f4a6f17bfdf7cada422b908f2b75491519a7197082aaffb74bda871dce1ef097",
+      "size": 132644
     },
     {
       "path": "src/js/report.js",
-      "sha256": "5bce232bcf36d448f15fac3d2adff231267579d758dd7bf739fdbc7ed29bceb5",
-      "size": 35599
+      "sha256": "7936633620e026262c2e3d4ef2a859de1b2ab45a99651c88b15c6aeb98752bc9",
+      "size": 89857
     },
     {
       "path": "src/js/web-shim.js",
-      "sha256": "c7cf6a429e5967a06f02cce08da3e8641fa4af3882a86c2d28305776b70f2c35",
-      "size": 1558
+      "sha256": "6d664aef11d2ba9efcb5859a749ff92dce246d10ff1865fe5ba9a9fa1ee8d1c3",
+      "size": 4875
     },
     {
       "path": "src/styles.css",
