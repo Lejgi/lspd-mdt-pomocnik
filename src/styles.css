@@ -555,7 +555,7 @@ ul.steps { padding: 0; margin: 0; }
 .hot-item .hc { font: 800 16px var(--font-head); color: #fff; }
 .hot-item .hd { font-size: 11.5px; color: #ffd0d5; margin-top: 1px; line-height: 1.25; }
 .code-cols { display: flex; flex-direction: column; gap: 14px; }
-.code-list { columns: 230px; column-gap: 20px; }
+.code-list { columns: 230px; column-gap: 26px; column-rule: 1px solid rgba(148, 163, 184, 0.24); }
 .code-item { break-inside: avoid; display: flex; gap: 10px; align-items: baseline; padding: 5px 8px; border-radius: 7px; cursor: pointer; transition: 0.1s; }
 .code-item:hover { background: rgba(148, 163, 184, 0.12); }
 .code-item .cc { font-family: var(--font-mono); font-weight: 800; font-size: 14px; color: var(--blue2); min-width: 70px; letter-spacing: 0.3px; }

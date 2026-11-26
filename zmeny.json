@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.2.4",
+    "date": "2026-11-26",
+    "notes": [
+      "Vysílačka – mezi sloupce kódů přibyly svislé čáry pro lepší přehled"
+    ]
+  },
+  {
     "version": "1.2.3",
     "date": "2026-11-25",
     "notes": [
