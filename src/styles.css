@@ -330,6 +330,9 @@ input[type='date']::-webkit-calendar-picker-indicator, input[type='time']::-webk
   background: #0d1323; border: 1px solid var(--line3); border-radius: 12px; padding: 6px; box-shadow: var(--shadow-lg); display: none;
 }
 .picker.open .picker-list { display: block; animation: fadeUp 0.12s ease both; }
+.card:has(.picker.open) { z-index: 50; }
+.fixbar { display: flex; justify-content: flex-end; margin: 0 0 7px; }
+.fixbar .btn.sm { gap: 6px; }
 .pick-item { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 8px; cursor: pointer; }
 .pick-item:hover, .pick-item.hl { background: rgba(91, 140, 255, 0.12); }
 .pick-item .pi-main { flex: 1; min-width: 0; font-size: 13px; }

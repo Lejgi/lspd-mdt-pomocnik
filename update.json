@@ -1,7 +1,7 @@
 {
-  "version": "1.2.4",
+  "version": "1.2.5",
   "notes": [
-    "Vysílačka – mezi sloupce kódů přibyly svislé čáry pro lepší přehled"
+    "Oprava: při výběru policistů se seznam už nepřekrývá s další sekcí – vidíš celou nabídku"
   ],
   "files": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "path": "main.js",
-      "sha256": "9967a5ffcc6a0223d84383ea3e521b1b4658f414fc47dc856eed62d197e510ce",
-      "size": 21523
+      "sha256": "2727d0ebc4a4ab2d9ae1ea3c861660a7eef100a372767de4281c5a451af42e9e",
+      "size": 21430
     },
     {
       "path": "node_modules/@fontsource/inter/400.css",
@@ -681,13 +681,13 @@
     },
     {
       "path": "package.json",
-      "sha256": "a891ddb7aa11dcca320721a62135e1356e4a24a242f9982d15aba5712c3fdca1",
+      "sha256": "4131993de66adec33023138ec19ea95af99e5b60e694450a535505d0c3f01570",
       "size": 340
     },
     {
       "path": "preload.js",
-      "sha256": "03fb1d9f5572b1bcf426dc8599dd899187a25ff9149a72918a2fe4cb553cd762",
-      "size": 4818
+      "sha256": "69970d780892499e72f0bb97443f9080d480cabffe7b225e6aa9a95d0b994e92",
+      "size": 4779
     },
     {
       "path": "src/calc.html",
@@ -721,43 +721,43 @@
     },
     {
       "path": "src/js/app.js",
-      "sha256": "77517e1353564edeacffced17333271417c5ce0f0b6b7532164295d62f0deefb",
-      "size": 24622
+      "sha256": "4cec2513fcbbdbabb4e77c790a5235f7a3065318233957cd0aaed7a5a4e3813a",
+      "size": 23228
     },
     {
       "path": "src/js/calc.js",
-      "sha256": "eb6d32ac116a0a3b378808047c30576a5e7a24eddcbb1414c0bf58eb21e6b67e",
-      "size": 12451
+      "sha256": "3ad20969e32399cc3724165bb8f68083a9f2d4e8e06445d1ad1bab7de5fa38f0",
+      "size": 11949
     },
     {
       "path": "src/js/core.js",
-      "sha256": "99ab4f93db5ceae6a84bfd87292442378a36b4c10c0248d6d53fc0c7334538ee",
-      "size": 44393
+      "sha256": "ef85b9c06bee59f4c4289cb5af2532787d18c716e1cc778422f49ab24cbf7273",
+      "size": 45835
     },
     {
       "path": "src/js/pages.js",
-      "sha256": "6518de9cc3fd25638c0b07079ee491a27003c078ef7eb5c487db8c9df8a284a3",
-      "size": 133656
+      "sha256": "96da2ddd0ae5aa6cf79fb621babd2210ae29d4c28c6fdaf36c6d318cba7acf63",
+      "size": 135325
     },
     {
       "path": "src/js/report.js",
-      "sha256": "26b7c1c69593400a890f276ed323f1bd2483ef796f988c7c5fd58b0fba7105f5",
-      "size": 87505
+      "sha256": "945c9662c2233dc3b4abd4916bc9162d1141f55b484c70f08cd03946f3e89524",
+      "size": 88832
     },
     {
       "path": "src/js/web-shim.js",
-      "sha256": "de92827b4adc9a12d81648d78ab4581372a2c8634706f793f5444ac82eb4efae",
-      "size": 4918
+      "sha256": "a55fe74a56284d12603b1f5a4ad0babe8ee09bc1feb71a850c5965cf3340b452",
+      "size": 5058
     },
     {
       "path": "src/styles.css",
-      "sha256": "28af7661c752d8bd8cf87b4f94555cd3d8a557ccfcf9b057a40981bdfa8a7348",
-      "size": 50766
+      "sha256": "16d75b16507f1bbcb9f1a668096f7641cac1065667ad30f04632c55c714ed736",
+      "size": 51611
     },
     {
       "path": "zmeny.json",
-      "sha256": "8c00074cd33a82671ad082cbb1c32b9fd61de20a32905b22040f4fad54d7dd85",
-      "size": 1492
+      "sha256": "bfc2e676d3ff4e22bd617dc92d49765efd74d843180fd275c1a66c1909333ca7",
+      "size": 1692
     }
   ]
 }
